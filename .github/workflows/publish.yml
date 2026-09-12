@@ -1,0 +1,88 @@
+name: Publish npm
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: npm-${{ github.event.release.tag_name }}
+  cancel-in-progress: false
+
+jobs:
+  package:
+    name: Verify and package
+    if: ${{ github.repository == 'daejunnom/TTRX' && !github.event.release.prerelease }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      RUSTUP_TOOLCHAIN: stable
+    outputs:
+      tarball: ${{ steps.pack.outputs.tarball }}
+    steps:
+      - name: Check out the release tag
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.release.tag_name }}
+          persist-credentials: false
+      - name: Install Rust and WebAssembly target
+        run: |
+          rustup toolchain install stable --profile minimal --component clippy
+          rustup target add wasm32-unknown-unknown --toolchain stable
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: "24"
+          package-manager-cache: false
+      - name: Install matching wasm-bindgen CLI
+        shell: bash
+        run: |
+          cargo +stable install --locked --root "$RUNNER_TEMP/wasm-bindgen" wasm-bindgen-cli --version 0.2.126
+          echo "$RUNNER_TEMP/wasm-bindgen/bin" >> "$GITHUB_PATH"
+      - name: Install npm package metadata
+        run: npm ci
+      - name: Check release version
+        run: node scripts/check-release-version.mjs "${{ github.event.release.tag_name }}"
+      - name: Run Rust tests
+        run: cargo +stable test --workspace --all-targets --locked
+      - name: Run Clippy
+        run: cargo +stable clippy --workspace --all-targets --locked -- -D warnings
+      - name: Build and inspect release tarball
+        id: pack
+        shell: bash
+        run: node scripts/pack-npm.mjs "$RUNNER_TEMP/npm-dist" >> "$GITHUB_OUTPUT"
+      - name: Upload release tarball
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: npm-package
+          path: ${{ runner.temp }}/npm-dist/${{ steps.pack.outputs.tarball }}
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    name: Publish with npm OIDC
+    needs: package
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: npm
+      url: https://www.npmjs.com/package/ttrx
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Download verified tarball
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
+        with:
+          name: npm-package
+          path: dist
+      - name: Set up Node.js and npm registry
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: "24"
+          registry-url: https://registry.npmjs.org
+          package-manager-cache: false
+      - name: Publish verified tarball
+        run: npm publish "dist/${{ needs.package.outputs.tarball }}" --access public

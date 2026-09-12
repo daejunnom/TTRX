@@ -1,0 +1,20 @@
+[package]
+name = "ttrx-wasm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+description = "WebAssembly bindings for the TTRX converter"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+ttrx-core = { path = "../ttrx-core" }
+# wasm-bindgen's generated Wasm schema must exactly match the CLI used to
+# produce JavaScript glue. Pin the project toolchain instead of accepting a
+# semver-compatible but schema-incompatible update.
+wasm-bindgen = "=0.2.126"
+
+[lints]
+workspace = true

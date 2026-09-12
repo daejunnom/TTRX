@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "observedDate": "2026-09-12",
+  "url": "https://tetr.io/js/tetrio.js",
+  "sha256": "eed14d6f268b2d6088dd82bc869a19f98410097e2c14a1f43cecb5a3d878526f",
+  "utf8Bytes": 2523270,
+  "utf16Length": 2518858,
+  "clientVersion": "1.7.8",
+  "currentRulesVersion": 19,
+  "defaultRulesVersion": 11,
+  "offsetUnit": "zero-based UTF-16 code units",
+  "parser": "acorn 8.15.0",
+  "astNodeCount": 629233,
+  "optionsListOffset": 1016979,
+  "optionCount": 173,
+  "classificationCounts": {
+    "identity": 5,
+    "physics": 16,
+    "board-supply": 7,
+    "handling": 5,
+    "attack": 13,
+    "garbage-targeting": 34,
+    "objective-level": 14,
+    "special-survival": 10,
+    "lifecycle": 18,
+    "zen-tutorial": 5,
+    "zenith": 14,
+    "presentation": 28,
+    "recording": 4
+  },
+  "clientExecuted": false
+}

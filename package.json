@@ -1,0 +1,61 @@
+{
+  "name": "ttrx",
+  "version": "0.1.0",
+  "description": "Convert TETR.IO .ttr and .ttrm replays to a compact, reversible .ttrx binary format.",
+  "license": "MIT",
+  "author": "daejunnom",
+  "type": "commonjs",
+  "main": "./dist/node/ttrx_wasm.js",
+  "module": "./dist/bundler/ttrx_wasm.js",
+  "browser": "./dist/bundler/ttrx_wasm.js",
+  "types": "./dist/node/ttrx_wasm.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/node/ttrx_wasm.d.ts",
+      "browser": "./dist/bundler/ttrx_wasm.js",
+      "import": "./dist/node/index.mjs",
+      "require": "./dist/node/ttrx_wasm.js",
+      "default": "./dist/bundler/ttrx_wasm.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "./dist/bundler/ttrx_wasm.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "tetrio",
+    "tetris",
+    "replay",
+    "wasm",
+    "webassembly",
+    "ttrx"
+  ],
+  "scripts": {
+    "build": "node scripts/build-npm.mjs",
+    "check:release": "node scripts/check-release-version.mjs",
+    "test": "cargo test --workspace --all-targets --locked",
+    "test:package:cjs": "node scripts/npm-package-smoke.cjs",
+    "test:package:esm": "node scripts/npm-package-smoke.mjs",
+    "test:package": "npm run test:package:cjs && npm run test:package:esm",
+    "prepack": "npm run build && npm run test:package"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daejunnom/TTRX"
+  },
+  "bugs": {
+    "url": "https://github.com/daejunnom/TTRX/issues"
+  },
+  "homepage": "https://github.com/daejunnom/TTRX#readme"
+}

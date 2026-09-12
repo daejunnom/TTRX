@@ -1,0 +1,2188 @@
+{
+  "sourceSha256": "eed14d6f268b2d6088dd82bc869a19f98410097e2c14a1f43cecb5a3d878526f",
+  "observedDate": "2026-09-12",
+  "definitionOffset": 1256425,
+  "meaning": "Client preset command values before UI/server normalization. Presets are examples, not the complete custom-rule space.",
+  "presets": [
+    {
+      "name": "default",
+      "offset": 1256429,
+      "settings": [
+        {
+          "index": "options.presets",
+          "valueText": "default"
+        },
+        {
+          "index": "match.modename",
+          "valueText": "VERSUS"
+        },
+        {
+          "index": "match.gamemode",
+          "valueText": "versus"
+        },
+        {
+          "index": "match.ft",
+          "valueText": "1"
+        },
+        {
+          "index": "match.wb",
+          "valueText": "1"
+        },
+        {
+          "index": "match.gp",
+          "valueText": "0"
+        },
+        {
+          "index": "options.stock",
+          "valueText": "0"
+        },
+        {
+          "index": "options.bagtype",
+          "valueText": "7-bag"
+        },
+        {
+          "index": "options.spinbonuses",
+          "valueText": "all-mini+"
+        },
+        {
+          "index": "options.allow180",
+          "valueText": "1"
+        },
+        {
+          "index": "options.kickset",
+          "valueText": "SRS+"
+        },
+        {
+          "index": "options.allow_harddrop",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_next",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_hold",
+          "valueText": "1"
+        },
+        {
+          "index": "options.nextcount",
+          "valueText": "5"
+        },
+        {
+          "index": "options.display_shadow",
+          "valueText": "1"
+        },
+        {
+          "index": "options.are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.lineclear_are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling_arr",
+          "valueText": "2"
+        },
+        {
+          "index": "options.room_handling_das",
+          "valueText": "10"
+        },
+        {
+          "index": "options.room_handling_sdf",
+          "valueText": "6"
+        },
+        {
+          "index": "options.g",
+          "valueText": "0.02"
+        },
+        {
+          "index": "options.gincrease",
+          "valueText": "0.0025"
+        },
+        {
+          "index": "options.gmargin",
+          "valueText": "3600"
+        },
+        {
+          "index": "options.garbagemultiplier",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbageblocking",
+          "valueText": "combo blocking"
+        },
+        {
+          "index": "options.garbagemargin",
+          "valueText": "10800"
+        },
+        {
+          "index": "options.garbagecapmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbageincrease",
+          "valueText": "0.008"
+        },
+        {
+          "index": "options.locktime",
+          "valueText": "30"
+        },
+        {
+          "index": "options.garbagespeed",
+          "valueText": "20"
+        },
+        {
+          "index": "options.garbagecap",
+          "valueText": "8"
+        },
+        {
+          "index": "options.garbagecapincrease",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbagecapmax",
+          "valueText": "40"
+        },
+        {
+          "index": "options.manual_allowed",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bchaining",
+          "valueText": "0"
+        },
+        {
+          "index": "options.combotable",
+          "valueText": "multiplier"
+        },
+        {
+          "index": "options.clutch",
+          "valueText": "1"
+        },
+        {
+          "index": "options.passthrough",
+          "valueText": "zero"
+        },
+        {
+          "index": "options.nolockout",
+          "valueText": "1"
+        },
+        {
+          "index": "options.boardwidth",
+          "valueText": "10"
+        },
+        {
+          "index": "options.boardheight",
+          "valueText": "20"
+        },
+        {
+          "index": "options.allclears",
+          "valueText": "1"
+        },
+        {
+          "index": "options.usebombs",
+          "valueText": "0"
+        },
+        {
+          "index": "options.openerphase",
+          "valueText": "14"
+        },
+        {
+          "index": "options.b2bcharging",
+          "valueText": "1"
+        },
+        {
+          "index": "options.allclear_garbage",
+          "valueText": "5"
+        },
+        {
+          "index": "options.allclear_b2b",
+          "valueText": "1"
+        },
+        {
+          "index": "options.roundmode",
+          "valueText": "down"
+        },
+        {
+          "index": "options.garbagespecialbonus",
+          "valueText": "1"
+        }
+      ]
+    },
+    {
+      "name": "tetra league",
+      "offset": 1257614,
+      "settings": [
+        {
+          "index": "options.presets",
+          "valueText": "tetra league"
+        },
+        {
+          "index": "match.modename",
+          "valueText": "TETRA LEAGUE"
+        },
+        {
+          "index": "gamebgm",
+          "valueText": "RANDOMbattle"
+        },
+        {
+          "index": "userLimit",
+          "valueText": "2"
+        },
+        {
+          "index": "match.gamemode",
+          "valueText": "versus"
+        },
+        {
+          "index": "match.ft",
+          "valueText": "7"
+        },
+        {
+          "index": "match.wb",
+          "valueText": "1"
+        },
+        {
+          "index": "match.gp",
+          "valueText": "0"
+        },
+        {
+          "index": "options.stock",
+          "valueText": "0"
+        },
+        {
+          "index": "options.bagtype",
+          "valueText": "7-bag"
+        },
+        {
+          "index": "options.spinbonuses",
+          "valueText": "all-mini+"
+        },
+        {
+          "index": "options.allow180",
+          "valueText": "1"
+        },
+        {
+          "index": "options.kickset",
+          "valueText": "SRS+"
+        },
+        {
+          "index": "options.allow_harddrop",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_next",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_hold",
+          "valueText": "1"
+        },
+        {
+          "index": "options.nextcount",
+          "valueText": "5"
+        },
+        {
+          "index": "options.display_shadow",
+          "valueText": "1"
+        },
+        {
+          "index": "options.are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.lineclear_are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling_arr",
+          "valueText": "2"
+        },
+        {
+          "index": "options.room_handling_das",
+          "valueText": "10"
+        },
+        {
+          "index": "options.room_handling_sdf",
+          "valueText": "6"
+        },
+        {
+          "index": "options.g",
+          "valueText": "0.02"
+        },
+        {
+          "index": "options.gincrease",
+          "valueText": "0.0035"
+        },
+        {
+          "index": "options.gmargin",
+          "valueText": "7200"
+        },
+        {
+          "index": "options.garbagemultiplier",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbageblocking",
+          "valueText": "combo blocking"
+        },
+        {
+          "index": "options.garbagemargin",
+          "valueText": "10800"
+        },
+        {
+          "index": "options.garbagecapmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbageincrease",
+          "valueText": "0.008"
+        },
+        {
+          "index": "options.locktime",
+          "valueText": "30"
+        },
+        {
+          "index": "options.garbagespeed",
+          "valueText": "20"
+        },
+        {
+          "index": "options.garbagecap",
+          "valueText": "8"
+        },
+        {
+          "index": "options.garbagecapincrease",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbagecapmax",
+          "valueText": "40"
+        },
+        {
+          "index": "options.manual_allowed",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bchaining",
+          "valueText": "0"
+        },
+        {
+          "index": "options.combotable",
+          "valueText": "multiplier"
+        },
+        {
+          "index": "options.clutch",
+          "valueText": "1"
+        },
+        {
+          "index": "options.passthrough",
+          "valueText": "zero"
+        },
+        {
+          "index": "options.nolockout",
+          "valueText": "1"
+        },
+        {
+          "index": "options.boardwidth",
+          "valueText": "10"
+        },
+        {
+          "index": "options.boardheight",
+          "valueText": "20"
+        },
+        {
+          "index": "options.allclears",
+          "valueText": "1"
+        },
+        {
+          "index": "options.usebombs",
+          "valueText": "0"
+        },
+        {
+          "index": "options.openerphase",
+          "valueText": "14"
+        },
+        {
+          "index": "options.b2bcharging",
+          "valueText": "1"
+        },
+        {
+          "index": "options.allclear_garbage",
+          "valueText": "5"
+        },
+        {
+          "index": "options.allclear_b2b",
+          "valueText": "1"
+        },
+        {
+          "index": "options.roundmode",
+          "valueText": "down"
+        },
+        {
+          "index": "options.garbagespecialbonus",
+          "valueText": "1"
+        }
+      ]
+    },
+    {
+      "name": "tetra league (season 1)",
+      "offset": 1258850,
+      "settings": [
+        {
+          "index": "options.presets",
+          "valueText": "tetra league (season 1)"
+        },
+        {
+          "index": "match.modename",
+          "valueText": "TETRA LEAGUE"
+        },
+        {
+          "index": "gamebgm",
+          "valueText": "RANDOMbattle"
+        },
+        {
+          "index": "userLimit",
+          "valueText": "2"
+        },
+        {
+          "index": "match.gamemode",
+          "valueText": "versus"
+        },
+        {
+          "index": "match.ft",
+          "valueText": "7"
+        },
+        {
+          "index": "match.wb",
+          "valueText": "1"
+        },
+        {
+          "index": "match.gp",
+          "valueText": "0"
+        },
+        {
+          "index": "options.stock",
+          "valueText": "0"
+        },
+        {
+          "index": "options.bagtype",
+          "valueText": "7-bag"
+        },
+        {
+          "index": "options.spinbonuses",
+          "valueText": "T-spins"
+        },
+        {
+          "index": "options.allow180",
+          "valueText": "1"
+        },
+        {
+          "index": "options.kickset",
+          "valueText": "SRS+"
+        },
+        {
+          "index": "options.allow_harddrop",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_next",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_hold",
+          "valueText": "1"
+        },
+        {
+          "index": "options.nextcount",
+          "valueText": "5"
+        },
+        {
+          "index": "options.display_shadow",
+          "valueText": "1"
+        },
+        {
+          "index": "options.are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.lineclear_are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling_arr",
+          "valueText": "2"
+        },
+        {
+          "index": "options.room_handling_das",
+          "valueText": "10"
+        },
+        {
+          "index": "options.room_handling_sdf",
+          "valueText": "6"
+        },
+        {
+          "index": "options.g",
+          "valueText": "0.02"
+        },
+        {
+          "index": "options.gincrease",
+          "valueText": "0.0035"
+        },
+        {
+          "index": "options.gmargin",
+          "valueText": "7200"
+        },
+        {
+          "index": "options.garbagemultiplier",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbageblocking",
+          "valueText": "combo blocking"
+        },
+        {
+          "index": "options.garbagemargin",
+          "valueText": "10800"
+        },
+        {
+          "index": "options.garbagecapmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbageincrease",
+          "valueText": "0.008"
+        },
+        {
+          "index": "options.locktime",
+          "valueText": "30"
+        },
+        {
+          "index": "options.garbagespeed",
+          "valueText": "20"
+        },
+        {
+          "index": "options.garbagecap",
+          "valueText": "8"
+        },
+        {
+          "index": "options.garbagecapincrease",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbagecapmax",
+          "valueText": "40"
+        },
+        {
+          "index": "options.manual_allowed",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bchaining",
+          "valueText": "1"
+        },
+        {
+          "index": "options.combotable",
+          "valueText": "multiplier"
+        },
+        {
+          "index": "options.clutch",
+          "valueText": "1"
+        },
+        {
+          "index": "options.passthrough",
+          "valueText": "zero"
+        },
+        {
+          "index": "options.nolockout",
+          "valueText": "1"
+        },
+        {
+          "index": "options.boardwidth",
+          "valueText": "10"
+        },
+        {
+          "index": "options.boardheight",
+          "valueText": "20"
+        },
+        {
+          "index": "options.allclears",
+          "valueText": "1"
+        },
+        {
+          "index": "options.usebombs",
+          "valueText": "0"
+        },
+        {
+          "index": "options.openerphase",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bcharging",
+          "valueText": "0"
+        },
+        {
+          "index": "options.allclear_garbage",
+          "valueText": "10"
+        },
+        {
+          "index": "options.allclear_b2b",
+          "valueText": "0"
+        },
+        {
+          "index": "options.roundmode",
+          "valueText": "down"
+        },
+        {
+          "index": "options.garbagespecialbonus",
+          "valueText": "0"
+        }
+      ]
+    },
+    {
+      "name": "classic",
+      "offset": 1260106,
+      "settings": [
+        {
+          "index": "options.presets",
+          "valueText": "classic"
+        },
+        {
+          "index": "match.modename",
+          "valueText": "CLASSIC VERSUS"
+        },
+        {
+          "index": "match.gamemode",
+          "valueText": "versus"
+        },
+        {
+          "index": "match.ft",
+          "valueText": "1"
+        },
+        {
+          "index": "match.wb",
+          "valueText": "1"
+        },
+        {
+          "index": "match.gp",
+          "valueText": "0"
+        },
+        {
+          "index": "options.stock",
+          "valueText": "0"
+        },
+        {
+          "index": "options.bagtype",
+          "valueText": "classic"
+        },
+        {
+          "index": "options.spinbonuses",
+          "valueText": "none"
+        },
+        {
+          "index": "options.allow180",
+          "valueText": "0"
+        },
+        {
+          "index": "options.kickset",
+          "valueText": "NRS"
+        },
+        {
+          "index": "options.allow_harddrop",
+          "valueText": "0"
+        },
+        {
+          "index": "options.display_next",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_hold",
+          "valueText": "0"
+        },
+        {
+          "index": "options.nextcount",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_shadow",
+          "valueText": "0"
+        },
+        {
+          "index": "options.are",
+          "valueText": "12"
+        },
+        {
+          "index": "options.lineclear_are",
+          "valueText": "18"
+        },
+        {
+          "index": "options.room_handling",
+          "valueText": "1"
+        },
+        {
+          "index": "options.room_handling_arr",
+          "valueText": "5"
+        },
+        {
+          "index": "options.room_handling_das",
+          "valueText": "16"
+        },
+        {
+          "index": "options.room_handling_sdf",
+          "valueText": "6"
+        },
+        {
+          "index": "options.g",
+          "valueText": "0.02"
+        },
+        {
+          "index": "options.gincrease",
+          "valueText": "0.0005"
+        },
+        {
+          "index": "options.gmargin",
+          "valueText": "3600"
+        },
+        {
+          "index": "options.garbagemultiplier",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbageblocking",
+          "valueText": "none"
+        },
+        {
+          "index": "options.garbagemargin",
+          "valueText": "10800"
+        },
+        {
+          "index": "options.garbagecapmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbageincrease",
+          "valueText": "0"
+        },
+        {
+          "index": "options.locktime",
+          "valueText": "5"
+        },
+        {
+          "index": "options.garbagespeed",
+          "valueText": "20"
+        },
+        {
+          "index": "options.garbagecap",
+          "valueText": "8"
+        },
+        {
+          "index": "options.garbagecapincrease",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbagecapmax",
+          "valueText": "40"
+        },
+        {
+          "index": "options.manual_allowed",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bchaining",
+          "valueText": "0"
+        },
+        {
+          "index": "options.combotable",
+          "valueText": "none"
+        },
+        {
+          "index": "options.clutch",
+          "valueText": "0"
+        },
+        {
+          "index": "options.passthrough",
+          "valueText": "zero"
+        },
+        {
+          "index": "options.nolockout",
+          "valueText": "1"
+        },
+        {
+          "index": "options.boardwidth",
+          "valueText": "10"
+        },
+        {
+          "index": "options.boardheight",
+          "valueText": "20"
+        },
+        {
+          "index": "options.allclears",
+          "valueText": "0"
+        },
+        {
+          "index": "options.messiness_change",
+          "valueText": "0"
+        },
+        {
+          "index": "options.messiness_inner",
+          "valueText": "0"
+        },
+        {
+          "index": "options.usebombs",
+          "valueText": "0"
+        },
+        {
+          "index": "options.openerphase",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bcharging",
+          "valueText": "0"
+        },
+        {
+          "index": "options.allclear_garbage",
+          "valueText": "10"
+        },
+        {
+          "index": "options.allclear_b2b",
+          "valueText": "0"
+        },
+        {
+          "index": "options.roundmode",
+          "valueText": "down"
+        },
+        {
+          "index": "options.garbagespecialbonus",
+          "valueText": "0"
+        }
+      ]
+    },
+    {
+      "name": "enforced delays",
+      "offset": 1261329,
+      "settings": [
+        {
+          "index": "options.presets",
+          "valueText": "enforced delays"
+        },
+        {
+          "index": "match.modename",
+          "valueText": "VERSUS"
+        },
+        {
+          "index": "match.gamemode",
+          "valueText": "versus"
+        },
+        {
+          "index": "match.ft",
+          "valueText": "2"
+        },
+        {
+          "index": "match.wb",
+          "valueText": "1"
+        },
+        {
+          "index": "match.gp",
+          "valueText": "0"
+        },
+        {
+          "index": "options.stock",
+          "valueText": "0"
+        },
+        {
+          "index": "options.bagtype",
+          "valueText": "7-bag"
+        },
+        {
+          "index": "options.spinbonuses",
+          "valueText": "T-spins"
+        },
+        {
+          "index": "options.allow180",
+          "valueText": "0"
+        },
+        {
+          "index": "options.kickset",
+          "valueText": "SRS"
+        },
+        {
+          "index": "options.allow_harddrop",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_next",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_hold",
+          "valueText": "1"
+        },
+        {
+          "index": "options.nextcount",
+          "valueText": "5"
+        },
+        {
+          "index": "options.display_shadow",
+          "valueText": "1"
+        },
+        {
+          "index": "options.are",
+          "valueText": "7"
+        },
+        {
+          "index": "options.lineclear_are",
+          "valueText": "35"
+        },
+        {
+          "index": "options.room_handling",
+          "valueText": "1"
+        },
+        {
+          "index": "options.room_handling_arr",
+          "valueText": "2"
+        },
+        {
+          "index": "options.room_handling_das",
+          "valueText": "9"
+        },
+        {
+          "index": "options.room_handling_sdf",
+          "valueText": "10"
+        },
+        {
+          "index": "options.g",
+          "valueText": "0.02"
+        },
+        {
+          "index": "options.gincrease",
+          "valueText": "0.00125"
+        },
+        {
+          "index": "options.gmargin",
+          "valueText": "3600"
+        },
+        {
+          "index": "options.garbagemultiplier",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbageblocking",
+          "valueText": "limited blocking"
+        },
+        {
+          "index": "options.garbagemargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbagecapmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbageincrease",
+          "valueText": "0"
+        },
+        {
+          "index": "options.locktime",
+          "valueText": "30"
+        },
+        {
+          "index": "options.garbagespeed",
+          "valueText": "10"
+        },
+        {
+          "index": "options.garbagecap",
+          "valueText": "100"
+        },
+        {
+          "index": "options.garbagecapincrease",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbagecapmax",
+          "valueText": "100"
+        },
+        {
+          "index": "options.manual_allowed",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bchaining",
+          "valueText": "0"
+        },
+        {
+          "index": "options.combotable",
+          "valueText": "classic guideline"
+        },
+        {
+          "index": "options.clutch",
+          "valueText": "0"
+        },
+        {
+          "index": "options.passthrough",
+          "valueText": "zero"
+        },
+        {
+          "index": "options.nolockout",
+          "valueText": "1"
+        },
+        {
+          "index": "options.boardwidth",
+          "valueText": "10"
+        },
+        {
+          "index": "options.boardheight",
+          "valueText": "20"
+        },
+        {
+          "index": "options.allclears",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbageentry",
+          "valueText": "instant"
+        },
+        {
+          "index": "options.messiness_change",
+          "valueText": "0.25"
+        },
+        {
+          "index": "options.messiness_inner",
+          "valueText": "0.25"
+        },
+        {
+          "index": "options.usebombs",
+          "valueText": "0"
+        },
+        {
+          "index": "options.openerphase",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bcharging",
+          "valueText": "0"
+        },
+        {
+          "index": "options.allclear_garbage",
+          "valueText": "10"
+        },
+        {
+          "index": "options.allclear_b2b",
+          "valueText": "0"
+        },
+        {
+          "index": "options.roundmode",
+          "valueText": "down"
+        },
+        {
+          "index": "options.garbagespecialbonus",
+          "valueText": "0"
+        }
+      ]
+    },
+    {
+      "name": "arcade",
+      "offset": 1262623,
+      "settings": [
+        {
+          "index": "options.presets",
+          "valueText": "arcade"
+        },
+        {
+          "index": "match.modename",
+          "valueText": "ARCADE VERSUS"
+        },
+        {
+          "index": "match.gamemode",
+          "valueText": "versus"
+        },
+        {
+          "index": "match.ft",
+          "valueText": "1"
+        },
+        {
+          "index": "match.wb",
+          "valueText": "1"
+        },
+        {
+          "index": "match.gp",
+          "valueText": "0"
+        },
+        {
+          "index": "options.stock",
+          "valueText": "0"
+        },
+        {
+          "index": "options.bagtype",
+          "valueText": "7-bag"
+        },
+        {
+          "index": "options.spinbonuses",
+          "valueText": "T-spins"
+        },
+        {
+          "index": "options.allow180",
+          "valueText": "0"
+        },
+        {
+          "index": "options.kickset",
+          "valueText": "ARS"
+        },
+        {
+          "index": "options.allow_harddrop",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_next",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_hold",
+          "valueText": "1"
+        },
+        {
+          "index": "options.nextcount",
+          "valueText": "3"
+        },
+        {
+          "index": "options.display_shadow",
+          "valueText": "0"
+        },
+        {
+          "index": "options.are",
+          "valueText": "27"
+        },
+        {
+          "index": "options.lineclear_are",
+          "valueText": "25"
+        },
+        {
+          "index": "options.room_handling",
+          "valueText": "1"
+        },
+        {
+          "index": "options.room_handling_arr",
+          "valueText": "1"
+        },
+        {
+          "index": "options.room_handling_das",
+          "valueText": "10"
+        },
+        {
+          "index": "options.room_handling_sdf",
+          "valueText": "20"
+        },
+        {
+          "index": "options.g",
+          "valueText": "0.02"
+        },
+        {
+          "index": "options.gincrease",
+          "valueText": "0.0025"
+        },
+        {
+          "index": "options.gmargin",
+          "valueText": "3600"
+        },
+        {
+          "index": "options.garbagemultiplier",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbageblocking",
+          "valueText": "combo blocking"
+        },
+        {
+          "index": "options.garbagemargin",
+          "valueText": "10800"
+        },
+        {
+          "index": "options.garbagecapmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbageincrease",
+          "valueText": "0.008"
+        },
+        {
+          "index": "options.locktime",
+          "valueText": "18"
+        },
+        {
+          "index": "options.garbagespeed",
+          "valueText": "20"
+        },
+        {
+          "index": "options.garbagecap",
+          "valueText": "8"
+        },
+        {
+          "index": "options.garbagecapincrease",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbagecapmax",
+          "valueText": "40"
+        },
+        {
+          "index": "options.manual_allowed",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bchaining",
+          "valueText": "0"
+        },
+        {
+          "index": "options.combotable",
+          "valueText": "multiplier"
+        },
+        {
+          "index": "options.clutch",
+          "valueText": "1"
+        },
+        {
+          "index": "options.passthrough",
+          "valueText": "zero"
+        },
+        {
+          "index": "options.nolockout",
+          "valueText": "1"
+        },
+        {
+          "index": "options.boardwidth",
+          "valueText": "10"
+        },
+        {
+          "index": "options.boardheight",
+          "valueText": "20"
+        },
+        {
+          "index": "options.allclears",
+          "valueText": "1"
+        },
+        {
+          "index": "options.usebombs",
+          "valueText": "0"
+        },
+        {
+          "index": "options.openerphase",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bcharging",
+          "valueText": "0"
+        },
+        {
+          "index": "options.allclear_garbage",
+          "valueText": "10"
+        },
+        {
+          "index": "options.allclear_b2b",
+          "valueText": "0"
+        },
+        {
+          "index": "options.roundmode",
+          "valueText": "down"
+        },
+        {
+          "index": "options.garbagespecialbonus",
+          "valueText": "0"
+        }
+      ]
+    },
+    {
+      "name": "quickplay",
+      "offset": 1263813,
+      "settings": [
+        {
+          "index": "options.presets",
+          "valueText": "quickplay"
+        },
+        {
+          "index": "match.modename",
+          "valueText": "VERSUS"
+        },
+        {
+          "index": "match.gamemode",
+          "valueText": "versus"
+        },
+        {
+          "index": "match.ft",
+          "valueText": "1"
+        },
+        {
+          "index": "match.wb",
+          "valueText": "1"
+        },
+        {
+          "index": "match.gp",
+          "valueText": "0"
+        },
+        {
+          "index": "options.stock",
+          "valueText": "0"
+        },
+        {
+          "index": "options.bagtype",
+          "valueText": "7-bag"
+        },
+        {
+          "index": "options.spinbonuses",
+          "valueText": "T-spins"
+        },
+        {
+          "index": "options.allow180",
+          "valueText": "1"
+        },
+        {
+          "index": "options.kickset",
+          "valueText": "SRS+"
+        },
+        {
+          "index": "options.allow_harddrop",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_next",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_hold",
+          "valueText": "1"
+        },
+        {
+          "index": "options.nextcount",
+          "valueText": "5"
+        },
+        {
+          "index": "options.display_shadow",
+          "valueText": "1"
+        },
+        {
+          "index": "options.are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.lineclear_are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling_arr",
+          "valueText": "2"
+        },
+        {
+          "index": "options.room_handling_das",
+          "valueText": "10"
+        },
+        {
+          "index": "options.room_handling_sdf",
+          "valueText": "6"
+        },
+        {
+          "index": "options.g",
+          "valueText": "0.05"
+        },
+        {
+          "index": "options.gincrease",
+          "valueText": "0.0025"
+        },
+        {
+          "index": "options.gmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbagemultiplier",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbageblocking",
+          "valueText": "combo blocking"
+        },
+        {
+          "index": "options.garbagemargin",
+          "valueText": "10800"
+        },
+        {
+          "index": "options.garbagecapmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbageincrease",
+          "valueText": "0.008"
+        },
+        {
+          "index": "options.locktime",
+          "valueText": "30"
+        },
+        {
+          "index": "options.garbagespeed",
+          "valueText": "20"
+        },
+        {
+          "index": "options.garbagecap",
+          "valueText": "4"
+        },
+        {
+          "index": "options.garbagecapincrease",
+          "valueText": "0.033"
+        },
+        {
+          "index": "options.garbagecapmax",
+          "valueText": "10"
+        },
+        {
+          "index": "options.manual_allowed",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bchaining",
+          "valueText": "1"
+        },
+        {
+          "index": "options.combotable",
+          "valueText": "multiplier"
+        },
+        {
+          "index": "options.clutch",
+          "valueText": "1"
+        },
+        {
+          "index": "options.passthrough",
+          "valueText": "zero"
+        },
+        {
+          "index": "options.nolockout",
+          "valueText": "1"
+        },
+        {
+          "index": "options.boardwidth",
+          "valueText": "10"
+        },
+        {
+          "index": "options.boardheight",
+          "valueText": "20"
+        },
+        {
+          "index": "options.allclears",
+          "valueText": "1"
+        },
+        {
+          "index": "options.usebombs",
+          "valueText": "0"
+        },
+        {
+          "index": "options.openerphase",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bcharging",
+          "valueText": "0"
+        },
+        {
+          "index": "options.allclear_garbage",
+          "valueText": "10"
+        },
+        {
+          "index": "options.allclear_b2b",
+          "valueText": "0"
+        },
+        {
+          "index": "options.roundmode",
+          "valueText": "down"
+        },
+        {
+          "index": "options.garbagespecialbonus",
+          "valueText": "0"
+        }
+      ]
+    },
+    {
+      "name": "4wide",
+      "offset": 1265001,
+      "settings": [
+        {
+          "index": "options.presets",
+          "valueText": "4wide"
+        },
+        {
+          "index": "match.modename",
+          "valueText": "4-WIDE"
+        },
+        {
+          "index": "match.gamemode",
+          "valueText": "versus"
+        },
+        {
+          "index": "match.ft",
+          "valueText": "1"
+        },
+        {
+          "index": "match.wb",
+          "valueText": "1"
+        },
+        {
+          "index": "match.gp",
+          "valueText": "0"
+        },
+        {
+          "index": "options.stock",
+          "valueText": "0"
+        },
+        {
+          "index": "options.bagtype",
+          "valueText": "7-bag"
+        },
+        {
+          "index": "options.spinbonuses",
+          "valueText": "handheld"
+        },
+        {
+          "index": "options.allow180",
+          "valueText": "1"
+        },
+        {
+          "index": "options.kickset",
+          "valueText": "SRS-X"
+        },
+        {
+          "index": "options.allow_harddrop",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_next",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_hold",
+          "valueText": "1"
+        },
+        {
+          "index": "options.nextcount",
+          "valueText": "5"
+        },
+        {
+          "index": "options.display_shadow",
+          "valueText": "1"
+        },
+        {
+          "index": "options.are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.lineclear_are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling_arr",
+          "valueText": "2"
+        },
+        {
+          "index": "options.room_handling_das",
+          "valueText": "10"
+        },
+        {
+          "index": "options.room_handling_sdf",
+          "valueText": "6"
+        },
+        {
+          "index": "options.g",
+          "valueText": "0.02"
+        },
+        {
+          "index": "options.gincrease",
+          "valueText": "0.0025"
+        },
+        {
+          "index": "options.gmargin",
+          "valueText": "3600"
+        },
+        {
+          "index": "options.garbagemultiplier",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbageblocking",
+          "valueText": "combo blocking"
+        },
+        {
+          "index": "options.garbagemargin",
+          "valueText": "10800"
+        },
+        {
+          "index": "options.garbagecapmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbageincrease",
+          "valueText": "0.008"
+        },
+        {
+          "index": "options.locktime",
+          "valueText": "30"
+        },
+        {
+          "index": "options.garbagespeed",
+          "valueText": "20"
+        },
+        {
+          "index": "options.garbagecap",
+          "valueText": "4"
+        },
+        {
+          "index": "options.garbagecapincrease",
+          "valueText": "0.02"
+        },
+        {
+          "index": "options.garbagecapmax",
+          "valueText": "8"
+        },
+        {
+          "index": "options.manual_allowed",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bchaining",
+          "valueText": "0"
+        },
+        {
+          "index": "options.combotable",
+          "valueText": "multiplier"
+        },
+        {
+          "index": "options.clutch",
+          "valueText": "1"
+        },
+        {
+          "index": "options.passthrough",
+          "valueText": "zero"
+        },
+        {
+          "index": "options.nolockout",
+          "valueText": "1"
+        },
+        {
+          "index": "options.boardwidth",
+          "valueText": "4"
+        },
+        {
+          "index": "options.boardheight",
+          "valueText": "26"
+        },
+        {
+          "index": "options.allclears",
+          "valueText": "1"
+        },
+        {
+          "index": "options.usebombs",
+          "valueText": "0"
+        },
+        {
+          "index": "options.openerphase",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bcharging",
+          "valueText": "0"
+        },
+        {
+          "index": "options.allclear_garbage",
+          "valueText": "5"
+        },
+        {
+          "index": "options.allclear_b2b",
+          "valueText": "1"
+        },
+        {
+          "index": "options.roundmode",
+          "valueText": "down"
+        },
+        {
+          "index": "options.garbagespecialbonus",
+          "valueText": "0"
+        }
+      ]
+    },
+    {
+      "name": "100 battle royale",
+      "offset": 1266184,
+      "settings": [
+        {
+          "index": "options.presets",
+          "valueText": "100 battle royale"
+        },
+        {
+          "index": "match.modename",
+          "valueText": "BATTLE ROYALE"
+        },
+        {
+          "index": "match.gamemode",
+          "valueText": "royale"
+        },
+        {
+          "index": "userLimit",
+          "valueText": "100"
+        },
+        {
+          "index": "match.ft",
+          "valueText": "1"
+        },
+        {
+          "index": "match.wb",
+          "valueText": "1"
+        },
+        {
+          "index": "match.gp",
+          "valueText": "0"
+        },
+        {
+          "index": "options.stock",
+          "valueText": "0"
+        },
+        {
+          "index": "options.bagtype",
+          "valueText": "7-bag"
+        },
+        {
+          "index": "options.spinbonuses",
+          "valueText": "all-mini+"
+        },
+        {
+          "index": "options.allow180",
+          "valueText": "0"
+        },
+        {
+          "index": "options.kickset",
+          "valueText": "SRS"
+        },
+        {
+          "index": "options.allow_harddrop",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_next",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_hold",
+          "valueText": "1"
+        },
+        {
+          "index": "options.nextcount",
+          "valueText": "6"
+        },
+        {
+          "index": "options.display_shadow",
+          "valueText": "1"
+        },
+        {
+          "index": "options.are",
+          "valueText": "6"
+        },
+        {
+          "index": "options.lineclear_are",
+          "valueText": "25"
+        },
+        {
+          "index": "options.room_handling",
+          "valueText": "1"
+        },
+        {
+          "index": "options.room_handling_arr",
+          "valueText": "2"
+        },
+        {
+          "index": "options.room_handling_das",
+          "valueText": "12"
+        },
+        {
+          "index": "options.room_handling_sdf",
+          "valueText": "6"
+        },
+        {
+          "index": "options.g",
+          "valueText": "0.02"
+        },
+        {
+          "index": "options.gincrease",
+          "valueText": "0.003"
+        },
+        {
+          "index": "options.gmargin",
+          "valueText": "3600"
+        },
+        {
+          "index": "options.garbagemultiplier",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbageblocking",
+          "valueText": "combo blocking"
+        },
+        {
+          "index": "options.garbagemargin",
+          "valueText": "10800"
+        },
+        {
+          "index": "options.garbagecapmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbageincrease",
+          "valueText": "0.008"
+        },
+        {
+          "index": "options.locktime",
+          "valueText": "30"
+        },
+        {
+          "index": "options.garbagespeed",
+          "valueText": "20"
+        },
+        {
+          "index": "options.garbagecap",
+          "valueText": "100"
+        },
+        {
+          "index": "options.garbagecapincrease",
+          "valueText": "0.033"
+        },
+        {
+          "index": "options.garbagecapmax",
+          "valueText": "100"
+        },
+        {
+          "index": "options.manual_allowed",
+          "valueText": "1"
+        },
+        {
+          "index": "options.b2bchaining",
+          "valueText": "0"
+        },
+        {
+          "index": "options.combotable",
+          "valueText": "classic guideline"
+        },
+        {
+          "index": "options.clutch",
+          "valueText": "0"
+        },
+        {
+          "index": "options.passthrough",
+          "valueText": "zero"
+        },
+        {
+          "index": "options.nolockout",
+          "valueText": "1"
+        },
+        {
+          "index": "options.boardwidth",
+          "valueText": "10"
+        },
+        {
+          "index": "options.boardheight",
+          "valueText": "20"
+        },
+        {
+          "index": "options.allclears",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbagequeue",
+          "valueText": "1"
+        },
+        {
+          "index": "options.garbagetargetbonus",
+          "valueText": "defensive"
+        },
+        {
+          "index": "options.garbageentry",
+          "valueText": "delayed"
+        },
+        {
+          "index": "options.garbageare",
+          "valueText": "7"
+        },
+        {
+          "index": "options.garbagearebump",
+          "valueText": "12"
+        },
+        {
+          "index": "options.garbageattackcap",
+          "valueText": "20"
+        },
+        {
+          "index": "options.garbageabsolutecap",
+          "valueText": "12"
+        },
+        {
+          "index": "options.messiness_change",
+          "valueText": "0.25"
+        },
+        {
+          "index": "options.messiness_inner",
+          "valueText": "0.25"
+        },
+        {
+          "index": "options.usebombs",
+          "valueText": "0"
+        },
+        {
+          "index": "options.openerphase",
+          "valueText": "14"
+        },
+        {
+          "index": "options.b2bcharging",
+          "valueText": "1"
+        },
+        {
+          "index": "options.allclear_garbage",
+          "valueText": "5"
+        },
+        {
+          "index": "options.allclear_b2b",
+          "valueText": "1"
+        },
+        {
+          "index": "options.roundmode",
+          "valueText": "down"
+        },
+        {
+          "index": "options.garbagespecialbonus",
+          "valueText": "1"
+        }
+      ]
+    },
+    {
+      "name": "bombs",
+      "offset": 1267678,
+      "settings": [
+        {
+          "index": "options.presets",
+          "valueText": "bombs"
+        },
+        {
+          "index": "match.modename",
+          "valueText": "VERSUS"
+        },
+        {
+          "index": "match.gamemode",
+          "valueText": "versus"
+        },
+        {
+          "index": "match.ft",
+          "valueText": "1"
+        },
+        {
+          "index": "match.wb",
+          "valueText": "1"
+        },
+        {
+          "index": "match.gp",
+          "valueText": "0"
+        },
+        {
+          "index": "options.stock",
+          "valueText": "0"
+        },
+        {
+          "index": "options.bagtype",
+          "valueText": "7+2-bag"
+        },
+        {
+          "index": "options.spinbonuses",
+          "valueText": "all-mini+"
+        },
+        {
+          "index": "options.allow180",
+          "valueText": "1"
+        },
+        {
+          "index": "options.kickset",
+          "valueText": "SRS+"
+        },
+        {
+          "index": "options.allow_harddrop",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_next",
+          "valueText": "1"
+        },
+        {
+          "index": "options.display_hold",
+          "valueText": "1"
+        },
+        {
+          "index": "options.nextcount",
+          "valueText": "5"
+        },
+        {
+          "index": "options.display_shadow",
+          "valueText": "1"
+        },
+        {
+          "index": "options.are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.lineclear_are",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling",
+          "valueText": "0"
+        },
+        {
+          "index": "options.room_handling_arr",
+          "valueText": "2"
+        },
+        {
+          "index": "options.room_handling_das",
+          "valueText": "10"
+        },
+        {
+          "index": "options.room_handling_sdf",
+          "valueText": "6"
+        },
+        {
+          "index": "options.g",
+          "valueText": "0.02"
+        },
+        {
+          "index": "options.gincrease",
+          "valueText": "0.0025"
+        },
+        {
+          "index": "options.gmargin",
+          "valueText": "3600"
+        },
+        {
+          "index": "options.garbagemultiplier",
+          "valueText": "0.8"
+        },
+        {
+          "index": "options.garbageblocking",
+          "valueText": "combo blocking"
+        },
+        {
+          "index": "options.garbagemargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbagecapmargin",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbageincrease",
+          "valueText": "0.005"
+        },
+        {
+          "index": "options.locktime",
+          "valueText": "30"
+        },
+        {
+          "index": "options.garbagespeed",
+          "valueText": "20"
+        },
+        {
+          "index": "options.garbagecap",
+          "valueText": "8"
+        },
+        {
+          "index": "options.garbagecapincrease",
+          "valueText": "0"
+        },
+        {
+          "index": "options.garbagecapmax",
+          "valueText": "40"
+        },
+        {
+          "index": "options.manual_allowed",
+          "valueText": "0"
+        },
+        {
+          "index": "options.b2bchaining",
+          "valueText": "0"
+        },
+        {
+          "index": "options.combotable",
+          "valueText": "multiplier"
+        },
+        {
+          "index": "options.clutch",
+          "valueText": "1"
+        },
+        {
+          "index": "options.passthrough",
+          "valueText": "zero"
+        },
+        {
+          "index": "options.nolockout",
+          "valueText": "1"
+        },
+        {
+          "index": "options.boardwidth",
+          "valueText": "10"
+        },
+        {
+          "index": "options.boardheight",
+          "valueText": "20"
+        },
+        {
+          "index": "options.allclears",
+          "valueText": "1"
+        },
+        {
+          "index": "options.messiness_inner",
+          "valueText": "0.3"
+        },
+        {
+          "index": "options.usebombs",
+          "valueText": "1"
+        },
+        {
+          "index": "options.openerphase",
+          "valueText": "14"
+        },
+        {
+          "index": "options.b2bcharging",
+          "valueText": "0"
+        },
+        {
+          "index": "options.allclear_garbage",
+          "valueText": "3"
+        },
+        {
+          "index": "options.allclear_b2b",
+          "valueText": "0"
+        },
+        {
+          "index": "options.roundmode",
+          "valueText": "down"
+        },
+        {
+          "index": "options.garbagespecialbonus",
+          "valueText": "0"
+        }
+      ]
+    }
+  ]
+}
