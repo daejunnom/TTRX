@@ -18,8 +18,13 @@
 | `node scripts/pack-npm.mjs work/npm-pack` | `tetr-ttrx@0.1.0` tarball 생성 및 파일 allowlist 검사 성공 |
 | 검증 tarball clean install | 별도 npm consumer에서 CommonJS/ESM import와 버전 호출 성공 |
 | 검증 tarball `npm publish --dry-run --access public` | 공개 배포 dry run 성공; 15개 파일, 91,662 byte tarball |
+| `npm publish work/npm-publish-tetr/tetr-ttrx-0.1.0.tgz --access public` | `tetr-ttrx@0.1.0`을 public `latest`로 최초 배포 성공 |
+| 공개 registry clean install | `tetr-ttrx@0.1.0`을 새 consumer에 설치해 CommonJS 왕복과 ESM import 성공 |
+| `npm trust list tetr-ttrx` | `daejunnom/TTRX`의 `publish.yml`, environment `npm`에 publish/stage publish OIDC 권한 등록 확인 |
 
 자동화 테스트는 strict JSON parsing, 모든 JSON number 형식, surrogate와 UTF-8 오류, 객체 순서와 중복 key, TTR/TTRM shape 판별과 부분 손상 거부, 결정적 encoding, varint 경계와 non-canonical 표현 거부, CRC-32C known value, payload 손상·절단·trailing data·unknown version/tag 거부, 사전 반복·shape/table count의 메모리 증폭 예산, canonical 출력 길이 계산, CLI 입력 읽기 한도·인자와 Windows `--force` 파일 교체·디렉터리 거부, WASM source 확장자 보존을 포함한다. npm package 검사는 공개 함수 11개, 두 replay 종류의 encode/decode/inspect/verify, canonical JSON data model 일치, checksum 손상 거부와 두 Node.js module loader를 확인한다.
+
+최초 npm 배포물의 registry integrity는 로컬 검증 tarball과 같은 `sha512-QwOhOhWYPRXYqiDTnNJgusGzLMgDUOvs+2uzx4pwawZmATHlMCNTnhRA/8Z6H2mqV9cndxsOhZ/+zpyDU4EDcw==`이다. 최초 버전은 패키지가 존재해야 Trusted Publisher를 등록할 수 있는 npm 제약 때문에 대화형 2FA로 배포했다. 후속 GitHub Release는 `.github/workflows/publish.yml`이 검증 tarball을 별도 job에서 만들고, `id-token: write`를 가진 publish job이 장기 npm token 없이 배포하도록 구성되어 있다.
 
 ## 실제 표본 왕복 변환
 
