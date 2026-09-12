@@ -1,5 +1,5 @@
 {
-  "name": "@daejunnom/ttrx",
+  "name": "tetr-ttrx",
   "version": "0.1.0",
   "description": "Convert TETR.IO .ttr and .ttrm replays to a compact, reversible .ttrx binary format.",
   "license": "MIT",

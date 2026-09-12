@@ -17,7 +17,7 @@ Source 판별은 현대 `replay.events`, `replay.rounds[r][p].replay.events`와 
 - CLI: encode, decode, inspect, verify.
 - Core: byte slice 기반 encode/decode/inspect_source/verify.
 - WASM: byte 배열 기반 TTR/TTRM encode, TTRX decode와 inspect/verify wrapper.
-- npm: `@daejunnom/ttrx` package가 Node.js CommonJS/ESM과 browser bundler용 WASM binding을 제공한다.
+- npm: `tetr-ttrx` package가 Node.js CommonJS/ESM과 browser bundler용 WASM binding을 제공한다.
 - core 외부 의존성: 0개. WASM wrapper는 wasm-bindgen을 사용한다.
 
 verify는 source→TTRX→decoded JsonValue의 완전 일치를 확인하며 source kind, stream/event 수와 크기를 출력한다. Core 반환값에는 전체 `SourceSummary`가 있고, event 종류와 option key 목록은 CLI/WASM의 inspect에서 출력한다. TETR.IO runtime trace와의 동치는 [별도 검증 범위](../tetrio/verification/coverage-and-open-items.md)다.
