@@ -68,7 +68,7 @@ jobs:
     timeout-minutes: 10
     environment:
       name: npm
-      url: https://www.npmjs.com/package/ttrx
+      url: https://www.npmjs.com/package/@daejunnom/ttrx
     permissions:
       contents: read
       id-token: write

@@ -42,15 +42,15 @@ The exported encode/decode functions accept and return JavaScript `Uint8Array` v
 
 ## npm package
 
-The `ttrx` npm package ships the WebAssembly converter for Node.js and browser-aware bundlers. It exposes the same eleven functions documented above, with CommonJS and ES module entry points for Node.js and an ES module WebAssembly entry point selected by browser bundlers.
+The `@daejunnom/ttrx` npm package ships the WebAssembly converter for Node.js and browser-aware bundlers. It exposes the same eleven functions documented above, with CommonJS and ES module entry points for Node.js and an ES module WebAssembly entry point selected by browser bundlers.
 
 ```sh
-npm install ttrx
+npm install @daejunnom/ttrx
 ```
 
 ```js
 import { readFile, writeFile } from 'node:fs/promises';
-import { decode_ttrx, encode_ttr } from 'ttrx';
+import { decode_ttrx, encode_ttr } from '@daejunnom/ttrx';
 
 const source = await readFile('replay.ttr');
 const container = encode_ttr(source);
@@ -60,7 +60,7 @@ const canonicalJson = decode_ttrx(container);
 await writeFile('replay.decoded.ttr', canonicalJson);
 ```
 
-CommonJS consumers can use `const ttrx = require('ttrx')`. The `inspect_*` and `verify_*` functions return human-readable strings; the encode/decode functions accept and return `Uint8Array` values and throw JavaScript errors for invalid inputs.
+CommonJS consumers can use `const ttrx = require('@daejunnom/ttrx')`. The `inspect_*` and `verify_*` functions return human-readable strings; the encode/decode functions accept and return `Uint8Array` values and throw JavaScript errors for invalid inputs.
 
 To build the npm package from source, install the `wasm32-unknown-unknown` Rust target and `wasm-bindgen-cli` 0.2.126, then run `npm run build`. `npm test` runs the Rust workspace tests, and `npm run test:package` checks both Node.js module formats after a build.
 

@@ -15,9 +15,9 @@
 | `scripts/wasm-smoke.cjs` | Node.js 24.16.0에서 두 표본 encode/decode/inspect/verify 성공 |
 | `cargo +1.85.0 check --workspace --all-targets --locked` | 선언한 최소 Rust 버전에서 전체 workspace check 성공 |
 | `npm run build && npm run test:package` | Node.js CommonJS/ESM에서 내장 TTR/TTRM 왕복·손상 거부 성공 |
-| `node scripts/pack-npm.mjs work/npm-pack` | `ttrx@0.1.0` tarball 생성 및 파일 allowlist 검사 성공 |
+| `node scripts/pack-npm.mjs work/npm-pack` | `@daejunnom/ttrx@0.1.0` tarball 생성 및 파일 allowlist 검사 성공 |
 | 검증 tarball clean install | 별도 npm consumer에서 CommonJS/ESM import와 버전 호출 성공 |
-| `npm publish work/npm-pack/ttrx-0.1.0.tgz --dry-run --access public` | 공개 배포 dry run 성공; 15개 파일, 91,660 byte tarball |
+| 검증 tarball `npm publish --dry-run --access public` | scoped 공개 배포 dry run 성공; 15개 파일, 91,663 byte tarball |
 
 자동화 테스트는 strict JSON parsing, 모든 JSON number 형식, surrogate와 UTF-8 오류, 객체 순서와 중복 key, TTR/TTRM shape 판별과 부분 손상 거부, 결정적 encoding, varint 경계와 non-canonical 표현 거부, CRC-32C known value, payload 손상·절단·trailing data·unknown version/tag 거부, 사전 반복·shape/table count의 메모리 증폭 예산, canonical 출력 길이 계산, CLI 입력 읽기 한도·인자와 Windows `--force` 파일 교체·디렉터리 거부, WASM source 확장자 보존을 포함한다. npm package 검사는 공개 함수 11개, 두 replay 종류의 encode/decode/inspect/verify, canonical JSON data model 일치, checksum 손상 거부와 두 Node.js module loader를 확인한다.
 
